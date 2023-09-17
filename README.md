@@ -39,7 +39,7 @@ Provide step-by-step instructions on how to install and configure your project. 
 
 ```bash
 # Example installation steps(Linux/MacOS)
-$ git clone [https://github.com/yourusername/your-django-project.git](https://github.com/Vignesh16879/FCSapp/edit/main/README.md)
+$ git clone https://github.com/Vignesh16879/FCSa
 $ cd fcsapp
 $ python3 -m venv .venv
 $ source venv/bin/activate
