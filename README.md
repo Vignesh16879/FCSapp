@@ -40,7 +40,7 @@ tt
 ```bash
 # Installation steps(Linux/MacOS)
  git clone https://github.com/Vignesh16879/FCSapp.git
- cd fcsapp
+ cd FCSapp/fcsapp
  python3 -m venv .venv
  source .venv/bin/activate
  pip install -r requirements.txt
@@ -52,7 +52,7 @@ tt
 ```bash
 # Installation steps(Windows)
  git clone https://github.com/Vignesh16879/FCSapp.git
- cd fcsapp
+ cd FCSapp/fcsapp
  virtualenv .venv
  source .venv/bin/activate
  pip install -r requirements.txt
