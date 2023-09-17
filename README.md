@@ -47,6 +47,7 @@ $ pip install -r requirements.txt
 $ python3 makemigrations main
 $ python3 manage.py migrate
 $ python3 manage.py runserver
+```
 
 ```bash
 # Example installation steps(Windows)
@@ -58,3 +59,4 @@ $ pip install -r requirements.txt
 $ python makemigrations main
 $ python manage.py migrate
 $ python manage.py runserver
+```
