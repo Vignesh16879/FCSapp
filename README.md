@@ -38,11 +38,23 @@ List any software, tools, or dependencies that users need to have installed befo
 Provide step-by-step instructions on how to install and configure your project. This can include setting up a virtual environment, installing dependencies, and database setup.
 
 ```bash
-# Example installation steps
-$ git clone https://github.com/yourusername/your-django-project.git
-$ cd your-django-project
-$ virtualenv venv
+# Example installation steps(Linux/MacOS)
+$ git clone [https://github.com/yourusername/your-django-project.git](https://github.com/Vignesh16879/FCSapp/edit/main/README.md)
+$ cd fcsapp
+$ python3 -m venv .venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+$ python3 makemigrations main
+$ python3 manage.py migrate
+$ python3 manage.py runserver
+
+```bash
+# Example installation steps(Windows)
+$ git clone [https://github.com/yourusername/your-django-project.git](https://github.com/Vignesh16879/FCSapp/edit/main/README.md)
+$ cd fcsapp
+$ virtualenv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+$ python makemigrations main
 $ python manage.py migrate
 $ python manage.py runserver
