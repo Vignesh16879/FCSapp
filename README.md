@@ -39,24 +39,24 @@ tt
 
 ```bash
 # Installation steps(Linux/MacOS)
-$ git clone https://github.com/Vignesh16879/FCSapp.git
-$ cd fcsapp
-$ python3 -m venv .venv
-$ source .venv/bin/activate
-$ pip install -r requirements.txt
-$ python3 makemigrations main
-$ python3 manage.py migrate
-$ python3 manage.py runserver
+ git clone https://github.com/Vignesh16879/FCSapp.git
+ cd fcsapp
+ python3 -m venv .venv
+ source .venv/bin/activate
+ pip install -r requirements.txt
+ python3 makemigrations main
+ python3 manage.py migrate
+ python3 manage.py runserver
 ```
 
 ```bash
 # Installation steps(Windows)
-$ git clone https://github.com/Vignesh16879/FCSapp.git
-$ cd fcsapp
-$ virtualenv .venv
-$ source .venv/bin/activate
-$ pip install -r requirements.txt
-$ python makemigrations main
-$ python manage.py migrate
-$ python manage.py runserver
+ git clone https://github.com/Vignesh16879/FCSapp.git
+ cd fcsapp
+ virtualenv .venv
+ source .venv/bin/activate
+ pip install -r requirements.txt
+ python makemigrations main
+ python manage.py migrate
+ python manage.py runserver
 ```
