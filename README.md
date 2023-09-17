@@ -35,10 +35,10 @@ List any software, tools, or dependencies that users need to have installed befo
 
 ### Installation
 
-Provide step-by-step instructions on how to install and configure your project. This can include setting up a virtual environment, installing dependencies, and database setup.
+tt
 
 ```bash
-# Example installation steps(Linux/MacOS)
+# Installation steps(Linux/MacOS)
 $ git clone https://github.com/Vignesh16879/FCSapp.git
 $ cd fcsapp
 $ python3 -m venv .venv
@@ -50,7 +50,7 @@ $ python3 manage.py runserver
 ```
 
 ```bash
-# Example installation steps(Windows)
+# Installation steps(Windows)
 $ git clone https://github.com/Vignesh16879/FCSapp.git
 $ cd fcsapp
 $ virtualenv .venv
