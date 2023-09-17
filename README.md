@@ -42,7 +42,7 @@ Provide step-by-step instructions on how to install and configure your project. 
 $ git clone https://github.com/Vignesh16879/FCSapp.git
 $ cd fcsapp
 $ python3 -m venv .venv
-$ source venv/bin/activate
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ python3 makemigrations main
 $ python3 manage.py migrate
