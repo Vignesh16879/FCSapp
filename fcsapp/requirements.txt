@@ -18,7 +18,7 @@ charset-normalizer==3.1.0
 cmake==3.27.2
 comm==0.1.4
 contourpy==1.1.0
-cryptography==41.0.3
+cryptography==41.0.4
 cv==1.0.0
 cycler==0.11.0
 debugpy==1.6.7.post1
