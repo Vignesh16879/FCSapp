@@ -31,7 +31,7 @@ Explain how to get started with your project. Include instructions for setting u
 
 ### Prerequisites
 
-List any software, tools, or dependencies that users need to have installed before they can run your project.
+List any software, tools, or dependencies that users need to install before running your project.
 
 ### Installation
 
@@ -41,6 +41,6 @@ tt
 # Installation steps(Linux/MacOS)
   mkdir FCS
   cd FCS
-  git clone
+  git clone https://github.com/Vignesh16879/FCSapp.git
   cd fcsapp
   sudo ./setup.sh
