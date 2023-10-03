@@ -96,13 +96,13 @@ sudo systemctl reload nginx
 
 # Run 'python manage.py makemigrations main' and 'python manage.py makemigrations admin'
 if [ -f "manage.py" ]; then
-    echo "Running 'python manage.py makemigrations main' within the virtual environment..."
+    echo "Running 'python3 manage.py makemigrations main' within the virtual environment..."
     python manage.py makemigrations main
 
-    echo "Running 'python manage.py makemigrations admin' within the virtual environment..."
+    echo "Running 'python3 manage.py makemigrations admin' within the virtual environment..."
     python manage.py makemigrations admin
 
-    echo "Running 'python manage.py migrate' within the virtual environment..."
+    echo "Running 'python3 manage.py migrate' within the virtual environment..."
     python manage.py migrate
 
     echo "Running 'python3 manage.py runserver_plus --cert-file certificate/foo.crt' within the virtual environment..."
